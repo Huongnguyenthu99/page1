@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .containers {
+            padding: 10px 10px 20px 25px;
+        }
+
+        .content_left {
+            display: block;
+            float: left;
+            padding: 70px 60px 0px;
+            width:38%;
+        }
+
+        .content_right {
+            display: block;
+            float:right;
+            width:48%;
+        }
+
+        .checkbox input {
+            margin-left: 0px !important;
+        }
+
+        .content_body ul {
+            padding: 0px !important;
+            text-align: center;
+        }
+
+            .content_body ul li {
+                display: inline-block;
+                /*border: 1px solid;*/
+                height: 40px;
+                line-height: 40px;
+                width: 100px;
+                border-radius: 2px;
+                margin-right: 5px;
+            }
+
+        .form-group{
+            margin-bottom:20px;
+        }
+
+        .form-group button {
+            height: 40px;
+            width: 100%;
+        }
+
+            .form-group input[type="text"] {
+                height: 50px;
+                padding-left: 20px;
+                border: 1px solid #e7e7eb;
+            }
+
+        .line_style {
+            position: relative;
+        }
+
+            .line_style h3 {
+                text-align: center;
+                margin: 30px 0px;
+                color: #a9a4a4;
+            }
+
+                .line_style h3:before {
+                    display: inline-block;
+                    position: absolute;
+                    content: "";
+                    height: 2px;
+                    width: 20%;
+                    background-color: #ebebeb;
+                    right: 0px;
+                    top: 50%;
+                }
+
+                .line_style h3:after {
+                    display: inline-block;
+                    position: absolute;
+                    content: "";
+                    height: 2px;
+                    width: 20%;
+                    background-color: #ebebeb;
+                    left: 0px;
+                    top: 50%;
+                }
+
+        .content_header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .content_right img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            height: 620px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .gg {
+            background: #CC3333;
+        }
+
+        .twitter {
+            background: #00acee;
+        }
+
+        .facebook {
+            background: #3b5998;
+        }
+
+        .social a {
+            color: #fff;
+        }
+
+        .form-group button {
+            border: none;
+            background: #da0000;
+            color: #fff;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+
+        .form p {
+            text-align: center;
+        }
+
+        input.form-control{
+            width:95%;
+            border-radius:5px;
+        }
+        .checkbox-inline, .checkbox-inline label {
+            display: inline-flex;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="containers">
+        <div class="content_left">
+            <div class="content_header">
+                <a href="">
+                    <img src="../LoginPage/logo-2.png" />
+                </a>
+            </div>
+            <div class="content_body">
+                <ul class="social">
+                    <li class="gg">
+                        <a href="http://google.com">
+                            <span>Google +</span>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="">
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li class="facebook">
+                        <a href="">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="line_style">
+                    <h3>Or Login With Email</h3>
+                </div>
+                <div class="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email Address" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="PassWord" />
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox-inline">
+                            <label><input type="checkbox" />Keep me logged in</label>
+                        </div>
+                        <a style="float:right" href="">Forgot Password</a>
+                    </div>
+                    <div class="form-group" style="margin: 50px 0px 30px;">
+                        <button type="submit">Log in</button>
+                    </div>
+                    <p>Don't have account?<a href="">Register</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="content_right">
+            <img src="../LoginPage/field-photo.jpg" />
+        </div>
+    </div>
+
+</body>
+</html>
